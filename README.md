@@ -2,60 +2,26 @@
 first include database called **channel.sql**
 
 
+<img width="598" alt="9" src="https://user-images.githubusercontent.com/42882017/147516660-fd21af5b-c47b-42e5-b0c1-a91c9856d19a.PNG">
+#### GET /channels (list of all channels)
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<img width="716" alt="1" src="https://user-images.githubusercontent.com/42882017/147516928-946a27ce-5764-43fd-bcc3-c81a27e1129d.PNG">
+#### POST /channels (create a new channel)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<img width="781" alt="2" src="https://user-images.githubusercontent.com/42882017/147517008-80abe3fc-0c1f-43dd-a904-7fa4797597da.PNG">
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+#### PUT /channels/{channel-uuid} (update the specified channel)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<img width="835" alt="3" src="https://user-images.githubusercontent.com/42882017/147517127-52d62060-775e-4607-b4bc-e49a99b41a1c.PNG">
+#### DELETE /channels/{channel-uuid} (delete the specified channel)
+<img width="662" alt="4" src="https://user-images.githubusercontent.com/42882017/147517204-d7a6b0fd-4587-4eb6-b880-b52b58f5ce07.PNG">
+#### POST /channels/{channel-uuid}/programs
+<img width="648" alt="5" src="https://user-images.githubusercontent.com/42882017/147517248-94f78d91-f9e0-4c40-8c70-ada306d9358e.PNG">
+#### PUT /channels/{channel-uuid}/programs/{program-uuid}
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-- **[Romega Software](https://romegasoftware.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<img width="630" alt="6" src="https://user-images.githubusercontent.com/42882017/147517362-6bf3bac5-1344-4086-8745-5a85dee11654.PNG">
 
 ## License
 
