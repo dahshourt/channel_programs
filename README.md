@@ -1,4 +1,6 @@
-installation project 
+#### installation project 
+first include database called **channel.sql**
+
 
 
 ## About Laravel
